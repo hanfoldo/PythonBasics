@@ -1,0 +1,16 @@
+userName = input('enter your name: ')
+
+print(userName)
+
+feeling = input('how are you today: ')
+
+print(feeling)
+
+print('well i am feeling good today')
+
+age = input('how old are you: ')
+
+myage = (int)(age) + 10
+
+print('well I am ' + (str)(myage))
+
