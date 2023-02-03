@@ -1,0 +1,24 @@
+question = input('ask your question: ')
+
+import random
+
+ph = random.randint(0,8)
+
+if ph == 8:
+    print('Yes - definitely')
+elif ph == 7:
+    print('it is decidedly so')
+elif ph == 6:
+    print('without a doubt')
+elif ph == 5:
+    print('Reply hazy, try again.')
+elif ph == 4:
+    print('ask again later')
+elif ph == 3:
+    print('better not to tell')
+elif ph == 2:
+    print('my source says no')
+elif ph == 1:
+    print('outlook not so good')
+else:
+    print('very doubtfull')
