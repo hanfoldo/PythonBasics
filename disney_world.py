@@ -8,12 +8,9 @@ print('4. hollywood studios')
 dw = int(input('enter you answer (1-4): '))
 
 if dw == 1:
+   
     print('here are the best rides for you')
-    print('5. Kali river rapids')
-    print('4.Navi river journy')
-    print('3. Dinosuar')
-    print('2.expedition everest')
-    print('1. avatar flight of passage')
+   
 elif dw == 2:
     print('here are the best rides for you')
     print('5. gran fiesta tour')
