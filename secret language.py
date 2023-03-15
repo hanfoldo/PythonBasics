@@ -2,7 +2,7 @@ key = 2
 message = input("what is your message: ")
 encryptedMessage = "";
 decryptedMessage = "";
-key = int(input('enter the key:'))
+key = int(input('enter the cryptic key:'))
 for c in message:
     encryptedMessage = encryptedMessage + chr(ord(c) + key)
  
